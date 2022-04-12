@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    height: 100%;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    align-content: center;
+    padding: 0 5%;
+}
+
+p {
+    display: none;
+}
+
+.hideMobile {
+    display: none;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 30% auto 50px;
+    border-radius: 23px;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+}
+
+.images {
+    width: 60%;
+}
+
+.images #illustrationWoman img {
+    transform: translateY(-60%);
+}
+
+.images #illustrationBackground img {
+    transform: translateY(-190%);
+    width: 100%;
+}
+
+.faqBox {
+    position: relative;
+    width: 90%;
+    top: -150px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.faqBox h2, .faqBox p{
+    font-size: 12px; 
+    width: 100%;
+}
+
+.faqBox .accContainer {
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin: auto;
+}
+
+input {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 38px;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h2 span {
+    float: right;
+    padding-right: 10px;
+}
+
+input + label + p {
+    display: none;
+}
+
+input:checked + label + p {
+    display: block;
+}
+
+input:checked + label span img  {
+    transform: rotate(180deg);
+}
+
+input:checked + label h2 {
+    font-weight: 700;
+}
+
+label:hover {
+    color: hsl(14, 88%, 65%); 
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media all and (min-width: 480px) {
+    .faqBox h2, .faqBox p{
+        font-size: 14px;
+    }
+
+    .faqBox {
+        top: -200px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    span {
+        display: none;
+    }
+}
+
+@media all and (min-width: 550px) {
+
+    .faqBox {
+        top: -250px;
+    }
+}
+
+@media all and (min-width: 650px) {
+
+    .faqBox {
+        top: -300px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .faqBox h2, .faqBox p{
+        font-size: 16px; 
+    }   
+
+}
+
+@media all and (min-width: 1040px) {
+    .container {
+        flex-direction: row;
+        flex: auto;
+        padding-right: 50px;
+        margin-top: 100px;
+    }
+
+    .images {
+        position: relative;
+        width: 100%;
+    }
+
+    .images #illustrationWoman img {
+        position: absolute;
+        transform: translate(-15%, -50%);
+        width: 422px;
+        z-index: 2;
+    }
+
+    .images #illustrationBackground img {
+        position: absolute;
+        transform: translate(-53%, -55%);
+        width: 760px;
+    }
+
+    .hideMobile {
+        display: block;
+        position: absolute;
+        z-index: 99;
+        transform: translate(-50%, -30%);
+    }
+
+    .faqBox {
+        width: 55%;
+        top: 0;
+        padding: 65px 0 83px;
+        margin-bottom: 100px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .faqBox .accContainer {
+        width: 350px;
+        padding-bottom: 10px; 
+    }
+}
+
+
