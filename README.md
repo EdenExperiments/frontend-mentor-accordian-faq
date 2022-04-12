@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://edenexperiments.github.io/frontend-mentor-accordian-faq/)
+- FrontEnd Mentor Solution Page: [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/html-and-css-accordian-faq-ry5OTWmEc)
 
 ## My process
 
