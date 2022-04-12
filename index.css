@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-body {
+html {
     height: 100%;
+}
+body {
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     align-content: center;
     padding: 0 5%;
